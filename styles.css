@@ -87,10 +87,10 @@ h1 {
 }
 
 .job {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   background: white;
   margin: 5rem 0 0 0;
   padding: 1rem 0;
@@ -105,6 +105,8 @@ h1 {
 
 .content {
   margin-left: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 #campany {
@@ -182,16 +184,16 @@ button {
   margin-top: 2px;
   text-align: center;
   background-color: #ebebff;
-  border: 5px solid #ebebff;
   border-radius: 15%;
   width: 57px;
   height: 24px;
   color: #6070ff;
-  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   size: 12px;
   list-style: 16px;
   letter-spacing: 3%;
+  border:1px solid red;
+  float: left;
 }
 
 a {
